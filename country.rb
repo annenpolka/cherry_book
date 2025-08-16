@@ -1,8 +1,9 @@
 country = 'italy'
 
-greeting = if country == 'japan'
+greeting = case country
+           when 'japan'
              'こんにちは'
-           elsif country == 'italy'
+           when 'italy'
              'Ciao'
            else
              'Hello'
